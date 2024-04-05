@@ -1,8 +1,4 @@
 <?php
-$conn = "localhost";
-$username = "root";
-$password ="";
-$db ="";
-
+this is my main page
 
 ?>
