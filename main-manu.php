@@ -1,4 +1,4 @@
 <?php
-this is my main page
+this is a my main page
 
 ?>
