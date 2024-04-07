@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Course Selling</title>
 
     
     <link rel="stylesheet" href="style.css">
@@ -31,7 +31,7 @@
           </ul>
         </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Fresh Arivals</a>
+              <a class="nav-link" href="#">Admin login</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
