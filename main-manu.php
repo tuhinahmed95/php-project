@@ -31,21 +31,23 @@
           </ul>
         </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Admin Login</a>
+          Admin Login <input type="login">
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Course Fee
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="index2.html">Men</a></li>
-                <li><a class="dropdown-item" href="#">Women's Winter Wear</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">KIDS</a></li>
+                <li><a class="dropdown-item" href="index2.html">50000</a></li>
+                <li><a class="dropdown-item" href="#">35000</a></li>
+                <li><a class="dropdown-item" href="#">20000</a></li>
+                <li><a class="dropdown-item" href="#">30000</a></li>
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Our Mission</a>
+            <li class="nav-item">
+          User Login <input type="login">
+            </li>
             </li>
           </ul>
 
@@ -67,11 +69,10 @@
 
 
           <li >
-            <a  role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              User Login
-            </a>
+            
            
           </li>
+         
 
 
           <form class="d-flex">
