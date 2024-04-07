@@ -31,11 +31,11 @@
           </ul>
         </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Admin login</a>
+              <a class="nav-link" href="#">Admin Login</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Winte 23/24
+                Course Fee
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li><a class="dropdown-item" href="index2.html">Men</a></li>
@@ -45,38 +45,32 @@
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Oxygen Studio</a>
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Our Mission</a>
             </li>
           </ul>
 
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Women
+              Trainer
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">Kameez</a></li>
-              <li><a class="dropdown-item" href="#">Burka & Abaya</a></li>
+              <li><a class="dropdown-item" href="#">MD. Rakibul Islam</a></li>
+              <li><a class="dropdown-item" href="#">Md. Rayhan Molla Raju</a></li>
               <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Unstiched Dress</a></li>
-              <li><a class="dropdown-item" href="#">Tops</a></li>
-              <li><a class="dropdown-item" href="#">Sharees</a></li>
-              <li><a class="dropdown-item" href="#">Shoe</a></li>
-              <li><a class="dropdown-item" href="#">bag</a></li>
+              <li><a class="dropdown-item" href="#">Md. Manum Shekh</a></li>
+              <li><a class="dropdown-item" href="#">Mis. Faizu Khan</a></a></li>
+              <li><a class="dropdown-item" href="#">Mis.Fima Rahman</a></li>
+              <li><a class="dropdown-item" href="#">Md. Shakil Ahmed</a></li>
+              <li><a class="dropdown-item" href="#">Mis. Sharmin Choudhury</a></li>
             </ul>
           </li>
 
 
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Men's Ethics
+          <li >
+            <a  role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              User Login
             </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">Punjabi</a></li>
-              <li><a class="dropdown-item" href="#">Wistcoat</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Sherwani</a></li>
-              <li><a class="dropdown-item" href="#">Pajam</a></li>
-            </ul>
+           
           </li>
 
 
