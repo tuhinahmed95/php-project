@@ -1,0 +1,62 @@
+.container-fluid{ 
+    width: 100%;
+    background-color: powderblue;
+    margin: 0px;
+    display: flex;
+}
+
+.logo{ 
+    width: 20%;
+   
+    
+}
+
+.logo img{ 
+    width: 35%;
+    
+
+}
+
+.logo img:hover{ 
+    background-color: red;
+    color: white;
+}
+.main-manu{ 
+    width: 40%;
+    height: 60px;
+    margin-top: 20px;
+    
+   
+}
+
+.main-manu a{ 
+    text-decoration: none;
+    padding: 30px;
+}
+
+.main-manu a:hover{ 
+    background-color: red;
+    color: white;
+    
+}
+
+.login{ 
+    width: 40%;
+    margin-top: 20px;
+}
+
+.login input:hover{ 
+    background-color: red;
+    color: white;
+}
+
+.body{ 
+    width: 100%;
+    margin: 0px;
+    
+}
+
+.body img{ 
+    width: 100%;
+    height: 600px;
+}
