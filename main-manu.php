@@ -12,7 +12,7 @@
 </head>
 <body>
 
-
+//this is a navbar
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid" style="list-style-type: none;text-decoration: none;">
         <li class="nav-item">
