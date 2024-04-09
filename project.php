@@ -8,7 +8,7 @@ if(isset($_POST['btn'])){
 
 
 ?>
-
+// this is a form
 <center>  
 <body>
     <head> 
