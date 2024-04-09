@@ -22,7 +22,9 @@ if(isset($_POST['btn'])){
         <input type="password" name="password"><br>
         <label for="cpassword">Confirm Password</label><br>
         <input type="password" name="cpassword"><br><br>
-        <input type="submit" name="btn" value="submit">
+        <input type="submit" name="btn" value="submit"><br>
+
+        
     </form>
 
     </head>
