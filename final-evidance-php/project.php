@@ -29,7 +29,7 @@
 
                 <label for="email">Email Address</label><br>
                 <input type="email" name="email" placeholder="enter your email"><br><br>
-
+                
                 <label for="password">Password</label><br>
                 <input type="password" name="password" placeholder="enter your password"><br><br>
 
@@ -37,7 +37,10 @@
                 <input type="password" name="cpassword" placeholder="enter your confirm password"><br><br>
 
                 <input type="submit" name="submit" value="submit">
+                <input type="reset" name="reset" value="Reset">
             </form>
+
+           
         </div>
 
         <h1>We Are Online Platfrom</h1>
