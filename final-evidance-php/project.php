@@ -51,9 +51,7 @@
 
         </div>
 
-        <div class="sub"> 
-            <input type="text">
-        </div>
+        
 
 
 
