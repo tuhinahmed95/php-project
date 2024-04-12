@@ -25,7 +25,7 @@
         <div class="main-body"> 
             <form action="#"> 
                 <label for="name">Full Name</label><br>
-                <input type="text" name="name"><br><br>
+                <input type="text" name="name" placeholder="enter your full name"><br><br>
 
                 <label for="email">Email Address</label><br>
                 <input type="email" name="email" placeholder="enter your email"><br><br>
@@ -49,6 +49,10 @@
         <h1>For Make Learn</h1>
         <h3>Far far away,behind the word mountains,far from the countries vokalia and consonatia</h3>
 
+        </div>
+
+        <div class="sub"> 
+            <input type="text">
         </div>
 
 
