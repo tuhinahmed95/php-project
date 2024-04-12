@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Course Selling</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Style.css">
 </head>
 <body>
     
@@ -43,12 +43,24 @@
            
         </div>
 
+        <div class="content"> 
+        <h4>WELCOME TO STUDYLAB</h4>
         <h1>We Are Online Platfrom</h1>
         <h1>For Make Learn</h1>
         <h3>Far far away,behind the word mountains,far from the countries vokalia and consonatia</h3>
 
+        </div>
 
 
+
+    </div>
+
+
+    <div class="second-page"> 
+        <div class="heading"> 
+            <h4>START LEARNING TODAY</h4>
+            <h2>Browse Online Course Category</h2>
+        </div>
     </div>
 
 
