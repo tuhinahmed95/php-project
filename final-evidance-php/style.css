@@ -4,8 +4,9 @@
 }
 
 .navbar{ 
-    text-align: center;
+    text-align: right;
     margin-top: 10px;
+    ;
 
 }
 
@@ -13,18 +14,19 @@
     text-decoration: none;
     padding: 20px;
    
+   
 }
 
 .main-body{ 
     text-align: center;
     padding-left: 30px;
     margin-top: 40px;
+    
 }
 
 .h3 { 
     text-align: right;
     margin-top: 10px;
    
-
 }
 
