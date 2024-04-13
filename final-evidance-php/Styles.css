@@ -65,7 +65,6 @@
 
 .third-page{ 
     width: 100%;
-    display: flex;
     margin: 0px;
     background-color: cadetblue;
    
@@ -73,7 +72,6 @@
 
 .image{ 
     width: 100%;
-    display: flex;
     margin: 0px;
     
 }
@@ -83,4 +81,9 @@
     height: 300px;
 }
 
+
+.image-2{ 
+    width: 30%;
+    height: 300px;
+}
 

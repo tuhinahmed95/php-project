@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Course Selling</title>
-    <link rel="stylesheet" href="Style.css">
+   <link rel="stylesheet" href="Styles.css">
 </head>
 <body>
     
-    <div class="container-fluid"> 
+<div class="container-fluid"> 
+
     <h3><a href="#">Studylab</a></h3>
         <div class="navbar"> 
         
@@ -18,8 +19,7 @@
         <a href="#">Instructor</a>
         <a href="#">Blog</a>
         <a href="#">Contact</a>
-
-        </div>
+ </div>
 
 
         <div class="main-body"> 
@@ -79,7 +79,12 @@
     
     </div>
 
-    <div class="image"> 
+   
+
+
+</div>
+
+<div class="image"> 
 
         <div class="image-1"> 
         <img src="images/image1.jpg" alt="#">
@@ -91,9 +96,6 @@
 
         <div class="image-3"> 
         <img src="images/image4.jpg" alt="#">
-    </div>
-
-
 </div>
 
     
