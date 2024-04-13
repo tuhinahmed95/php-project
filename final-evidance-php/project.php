@@ -91,7 +91,7 @@
         </div>
 
         <div class="image-2"> 
-        <img src="images/image2.jpg" alt="#">
+        <img src="images/image3.jpg" alt="#">
         </div>
 
         <div class="image-3"> 

@@ -73,17 +73,33 @@
 .image{ 
     width: 100%;
     margin: 0px;
+    display: flex;
+    
+    
     
 }
 
 .image-1{ 
     width: 30%;
+    display: flex;
+    padding-right: 10px;
     height: 300px;
 }
 
 
 .image-2{ 
     width: 30%;
+    display: flex;
+    padding-left: 10px;
     height: 300px;
 }
+
+
+.image-3{ 
+    width: 30%;
+    display: flex;
+    padding-left: 10px;
+    height: 300px;
+}
+
 
