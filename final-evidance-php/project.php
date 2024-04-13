@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="Style.css">
 </head>
 <body>
-    
+    //this is my project
     <div class="container-fluid"> 
     <h3><a href="#">Studylab</a></h3>
         <div class="navbar"> 
@@ -51,9 +51,7 @@
 
         </div>
 
-        
-
-
+    
 
     </div>
 
@@ -63,7 +61,30 @@
             <h4>START LEARNING TODAY</h4>
             <h2>Browse Online Course Category</h2>
         </div>
+
+
+
+
+
+
+
     </div>
+
+
+
+
+    <div class="third-page"> 
+        <div class="head"> 
+
+        <h4>START LEARNING TODAY</h4>
+        <h2>Pick Your Course</h2>
+
+        </div>
+
+       
+    </div>
+
+    
 
 
     

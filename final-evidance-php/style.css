@@ -49,7 +49,9 @@
 
 .second-page{ 
     width: 100%;
+    background-color: cornflowerblue;
     margin: 0px;
+    height: 400px;
 
 
 }
@@ -59,3 +61,12 @@
     margin-top: 20px;
 
 }
+
+
+.third-page{ 
+    width: 100%;
+    background-color: cadetblue;
+   
+}
+
+
