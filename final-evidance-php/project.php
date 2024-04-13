@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="Style.css">
 </head>
 <body>
-    //this is my project
+    
     <div class="container-fluid"> 
     <h3><a href="#">Studylab</a></h3>
         <div class="navbar"> 
