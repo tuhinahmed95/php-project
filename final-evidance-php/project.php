@@ -98,6 +98,27 @@
         <img src="images/image4.jpg" alt="#">
 </div>
 
+
+<div class="container-4">  
+    
+    <div class="first"> 
+        <h1>Design for the web with adobe photoshop</h1>
+        <h3>ADVISOR TONY GARRET</h3>
+    </div>
+
+    <div class="secod"> 
+        <h1>Design for the web with adobe photoshop</h1>
+        <h3>ADVISOR TONY GARRET</h3>
+    </div>
+
+    <div class="third"> 
+        <h1>Design for the web with adobe photoshop</h1>
+        <h3>ADVISOR TONY GARRET</h3>
+    </div>
+
+
+</div>
+
     
 
 
