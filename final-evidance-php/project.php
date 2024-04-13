@@ -63,11 +63,6 @@
         </div>
 
 
-
-
-
-
-
     </div>
 
 
@@ -81,8 +76,25 @@
 
         </div>
 
-       
+    
     </div>
+
+    <div class="image"> 
+
+        <div class="image-1"> 
+        <img src="images/image1.jpg" alt="#">
+        </div>
+
+        <div class="image-2"> 
+        <img src="images/image2.jpg" alt="#">
+        </div>
+
+        <div class="image-3"> 
+        <img src="images/image4.jpg" alt="#">
+    </div>
+
+
+</div>
 
     
 
