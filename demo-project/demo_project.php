@@ -1,5 +1,17 @@
+<?php
+$connectDB = mysqli_connect("localhost","","root","college");
+
+if(isset($_POST['btn'])){ 
+    $id = $_POST['id'];
+    $name = $_POST['name'];
+    $gpa = $_POST['gpa'];
+    $roll = $_POST['roll'];
+
+}
 
 
+
+?>
 
 
 
@@ -14,14 +26,14 @@
 </head>
 <body>
 
-    <form action="#"> 
+    <form action="#" method="POST" style=background-color:tomato; width:300px;> 
         <label for="id"> ID
             <input type="text" name="id">
         </label><br><br> 
 
         <label for="name">NAME 
             <input type="text" name="name">
-        </label>
+        </label><br><br>
 
         <label for="gpa">GPA
             <input type="text" name="gpa">
