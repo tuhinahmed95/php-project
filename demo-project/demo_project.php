@@ -7,6 +7,16 @@ if(isset($_POST['btn'])){
     $gpa = $_POST['gpa'];
     $roll = $_POST['roll'];
 
+
+    $dataInsert = "INSERT INTO student(id,name,gpa,roll) 
+                    VALUES ('$id','$name','$gpa','$roll')";
+
+        $query = mysqli_query($connectDB,$dataInsert);
+        
+        if($query == true){ 
+            echo "data inserted succesfully";
+        }
+
 }
 
 
