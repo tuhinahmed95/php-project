@@ -5,11 +5,8 @@
     width: 30%;
     border: 1px solid black;
     padding: 20px;
-    margin-top: 50px;
+    margin-top: 100px;
     background-color: cornflowerblue;
     color: white;
 }
 
-.fieldset legend{ 
-    width: 35%;
-}

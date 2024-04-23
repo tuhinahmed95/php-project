@@ -8,8 +8,7 @@
 </head>
 <body>
     <center>
-        <fieldset>
-            <legend>Login Form</legend>
+        
     <div class="container" > 
     
 
@@ -23,7 +22,7 @@
             </form>
         
     </div>
-    </fieldset>
+    
     </center>
     
     
