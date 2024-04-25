@@ -7,7 +7,7 @@
    <link rel="stylesheet" href="Styles.css">
 </head>
 <body>
-    //thsi is my demo final evidance
+    
 <div class="container-fluid"> 
 
     <h3><a href="#">Studylab</a></h3>
