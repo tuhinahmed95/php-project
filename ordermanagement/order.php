@@ -32,7 +32,7 @@
 
             
 
-
+                <!-- main-body -->
             <div class="main-body">
                 <h3 class="main-div-first">Total Quantity <br>110,00 <br>2.00%(30 days)</h3>
                 <h3 class="main-div-second">Total Quantity <br>110,00 <br>2.00%(30 days)</h3>
