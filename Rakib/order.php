@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -26,17 +27,26 @@
                 <h3 class="second-div">Start Date <br> April 30/2024</h3>
                 <h3 class="third-div">Sales Mesure <br>Revenue</h3>
                 <h3 class="four-div">Customer Type <br>All Customer</h3>
-                <h3 >Transaction Type <br> All Transaction</h3>
+                <h3 class="five-div">Transaction Type <br> All Transaction</h3>
                 
+            </div>
+
+
+            <div class="main-body"> 
+                <h4 class="main-div-first">Total Quantity <br> <br> 110,000 <br>2.00%(30 days)</h4>
+                <h4 class="main-div-second">Total Cost <br> <br> $523,200 <br> 12.09%(30 Days)</h4>
+                <h4 class="main-div-third">Total Revenue <br><br>$753,098 <br>0.51%(30 Days)</h4>
+                <h4 class="main-div-four">Total Profit <br> <br> $331,886 <br> 5.32%(30 Days)</h4>
+            </div>
+
+            <div class="footer"> 
+                <h2 class="footer-div">THIS YEAR'S TOTAL REVENUE <br> Sales Performance For Online And Ofline Revenue <br> <br> <img src="graph.png" alt=""></h2>
+                <h2 class="footer-right-div">SALES REVENUE CUSTOMERS IN USA <br> Sales Performance Of All States In The United States</h2>
             </div>
 
             
 
-                <!-- main-body -->
-            <div class="main-body">
-                <h3 class="main-div-first">Total Quantity <br>110,00 <br>2.00%(30 days)</h3>
-                <h3 class="main-div-second">Total Quantity <br>110,00 <br>2.00%(30 days)</h3>
-            </div>
+            
 
         </div>
     
