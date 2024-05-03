@@ -40,7 +40,11 @@
             </div>
 
             <div class="footer"> 
+<<<<<<< HEAD:ordermanagement/order.php
                 <h2 class="footer-div">THIS YEAR'S TOTAL REVENUE <br> Sales Performance For Online And Ofline Revenue</h2>
+=======
+                <h2 class="footer-div">THIS YEAR'S TOTAL REVENUE <br> Sales Performance For Online And Ofline Revenue <br> <br> <img src="graph.png" alt=""></h2>
+>>>>>>> 9b0d27ec35ec29eecc4ecb9d12b436116c4b26e9:Rakib/order.php
                 <h2 class="footer-right-div">SALES REVENUE CUSTOMERS IN USA <br> Sales Performance Of All States In The United States</h2>
             </div>
 
