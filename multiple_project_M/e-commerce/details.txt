@@ -1,0 +1,52 @@
+E-Commerce System is an Online-Based System 
+that allows buyers to easily search for products using their smartphones or 
+laptop with an internet connection. This is a user-friendly system and it has a 
+responsive design that fits in your gadget. It contains products such as 
+Clothing (Men, Women, and Kids), Shoes, Bags, Interiors, and many more.
+ You have many products to choose from and it’s very convenient for you to order 
+a certain product that you like. The mode of Payment is Cash on Delivery and 
+the fee depends on the location that you set-up on the admin side.
+
+Features
+Admin Side
+
+Manage Products
+Manage Orders
+Manage Categories
+Manage Discount
+Manage Delivery Fee
+Manage Users
+Generates Report
+Customer Side
+
+Home
+Shop
+Products
+Contacts
+Cart
+Searching for Products
+Billing Details
+Submit Orders
+Customer Profile
+Update Accounts
+WishList
+List of Orders
+
+
+Admin Panel
+Login/Sign Up
+Magnify product image
+Product Cart
+Google ReCaptcha
+Checkout using Paypal
+Add, Edit, Remove and View Products
+User Management
+View daily/monthly sales
+
+Username: janobe
+Password: admin
+
+Sample Customer Access
+
+Username: janobe
+Password: janobe1234
