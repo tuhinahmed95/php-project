@@ -1,0 +1,35 @@
+ BEGIN
+  INSERT INTO 
+   manufacturer(name,contact)
+   values(mname,mcontact);
+
+ END
+
+
+
+CREATE VIEW view_companydata 
+AS SELECT manufacturer.id,manufacturer.name,manufacturer.contact,product.id pid,product.name pname,product.price,product.
+Manufacturer_Name
+
+FROM (manufacturer,product)
+WHERE manufacturer.id = product.id;
+
+
+
+CREATE TABLE product(
+  id int AUTO_INCREMENT,
+    name varchar(30),
+    price double(10.3),
+    manufacturer_name varchar(25),
+    PRIMARY KEY(id)
+    
+);
+
+
+
+BEGIN
+  INSERT INTO 
+   product(name,price,manufacturer_name)
+   values(p_name,p_price,P_mfName);
+
+ END

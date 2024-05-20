@@ -1,0 +1,34 @@
+GUI = Graphical User Interface
+CUI = Console User Interface
+-----------------------------
+show databases;
+----------------------
+create database nh;
+---------------------
+drop database nh;
+----------------------
+use nh;
+connect nh;
+-------------------------
+create table students
+(
+st_id int not null,
+st_name varchar(50),
+st_email varchar(100)
+);
+--------------------
+show tables;
+-------------------
+drop table students;
+-------------------
+desc students;
+-----------------------
+INSERT INTO students VALUES(111,'faisal','faisal@gmail.com');
+------------------------
+SELECT * FROM students;
+----------------------
+DELETE FROM students WHERE st_id = 111;
+------------------------
+UPDATE students SET st_id=111  WHERE st_id = 115;
+----------------------------------------
+ALTER TABLE students ADD st_sex varchar(6);

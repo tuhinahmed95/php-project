@@ -1,0 +1,136 @@
+-- Create customers table
+CREATE TABLE customers (
+    customer_id INT AUTO_INCREMENT PRIMARY KEY,
+    customer_name VARCHAR(100) NOT NULL,
+    email VARCHAR(100)
+);
+
+-- Create products table
+CREATE TABLE products (
+    product_id INT AUTO_INCREMENT PRIMARY KEY,
+    product_name VARCHAR(100) NOT NULL,
+    price DECIMAL(10, 2)
+);
+
+-- Create orders table
+CREATE TABLE orders (
+    order_id INT AUTO_INCREMENT PRIMARY KEY,
+    customer_id INT,
+    order_date DATE,
+    FOREIGN KEY (customer_id) REFERENCES customers(customer_id)
+);
+
+-- Create order_items table
+CREATE TABLE order_items (
+    order_item_id INT AUTO_INCREMENT PRIMARY KEY,
+    order_id INT,
+    product_id INT,
+    quantity INT,
+    FOREIGN KEY (order_id) REFERENCES orders(order_id),
+    FOREIGN KEY (product_id) REFERENCES products(product_id)
+);
+
+-- Create order_status table
+CREATE TABLE order_status (
+    status_id INT AUTO_INCREMENT PRIMARY KEY,
+    order_id INT,
+    status VARCHAR(50),
+    FOREIGN KEY (order_id) REFERENCES orders(order_id)
+);
+
+
+
+
+-- Insert data into customers table
+INSERT INTO customers (customer_name, email) VALUES ('John Doe', 'john@example.com');
+INSERT INTO customers (customer_name, email) VALUES ('Jane Smith', 'jane@example.com');
+
+-- Insert data into products table
+INSERT INTO products (product_name, price) VALUES ('Product A', 10.50);
+INSERT INTO products (product_name, price) VALUES ('Product B', 20.75);
+
+-- Insert data into orders table
+INSERT INTO orders (customer_id, order_date) VALUES (1, '2024-05-01');
+INSERT INTO orders (customer_id, order_date) VALUES (2, '2024-05-02');
+
+-- Insert data into order_items table
+INSERT INTO order_items (order_id, product_id, quantity) VALUES (1, 1, 2);
+INSERT INTO order_items (order_id, product_id, quantity) VALUES (1, 2, 1);
+INSERT INTO order_items (order_id, product_id, quantity) VALUES (2, 1, 1);
+
+-- Insert data into order_status table
+INSERT INTO order_status (order_id, status) VALUES (1, 'Shipped');
+INSERT INTO order_status (order_id, status) VALUES (2, 'Pending');
+
+
+
+-- Create final_data_view from five tables
+CREATE VIEW details_of_products AS
+SELECT
+    c.customer_id,
+    c.customer_name,
+    c.email,
+    o.order_id,
+    o.order_date,
+    p.product_id,
+    p.product_name,
+    p.price,
+    oi.quantity,
+    os.status
+FROM
+    customers c
+    JOIN orders o ON c.customer_id = o.customer_id
+    JOIN order_items oi ON o.order_id = oi.order_id
+    JOIN products p ON oi.product_id = p.product_id
+    JOIN order_status os ON o.order_id = os.order_id;
+
+
+
+<?php
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "practice_table"; 
+
+// Create connection
+$conn = new mysqli($servername, $username, $password, $dbname);
+
+// Check connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+}
+
+// SQL to select data from details_of_products view
+$sql = "SELECT * FROM details_of_products";
+$result = $conn->query($sql);
+
+if ($result->num_rows > 0) {
+    echo "<h2>Data from details_of_products</h2>";
+    echo "<table border='1'><tr>";
+
+    // Output table column headers
+    $field_info = $result->fetch_fields();
+    foreach ($field_info as $field) {
+        echo "<th>{$field->name}</th>";
+    }
+    echo "</tr>";
+
+    // Output table rows
+    while ($row = $result->fetch_assoc()) {
+        echo "<tr>";
+        foreach ($row as $cell) {
+            echo "<td>{$cell}</td>";
+        }
+        echo "</tr>";
+    }
+    echo "</table>";
+} else {
+    echo "0 results";
+}
+
+$conn->close();
+?>
+
+
+
+
